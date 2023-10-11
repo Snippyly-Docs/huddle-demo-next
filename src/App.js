@@ -6,7 +6,7 @@ import "./App.css";
 export default function App() {
   return (
     <VeltProvider apiKey="j3AwoBkuQMTEgeqrmPve">
-      <VeltComments />
+      <VeltComments mobileMode={false} />
       <div>
         <YourAuthComponent />
         <YourDocument />
